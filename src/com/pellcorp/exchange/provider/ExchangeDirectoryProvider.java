@@ -58,7 +58,7 @@ import java.util.List;
  * used solely to provide GAL (Global Address Lookup) service to email address adapters
  */
 public class ExchangeDirectoryProvider extends ContentProvider {
-    public static final String EXCHANGE_GAL_AUTHORITY = "com.android.exchange.directory.provider";
+    public static final String EXCHANGE_GAL_AUTHORITY = "com.pellcorp.exchange.directory.provider";
 
     private static final int DEFAULT_CONTACT_ID = 1;
     private static final int DEFAULT_LOOKUP_LIMIT = 20;

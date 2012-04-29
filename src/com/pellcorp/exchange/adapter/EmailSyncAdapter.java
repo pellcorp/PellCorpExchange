@@ -977,7 +977,7 @@ public class EmailSyncAdapter extends AbstractSyncAdapter {
         }
 
         /* (non-Javadoc)
-         * @see com.android.exchange.adapter.EasContentParser#commandsParser()
+         * @see com.pellcorp.exchange.adapter.EasContentParser#commandsParser()
          */
         @Override
         public void commandsParser() throws IOException, CommandStatusException {

@@ -1860,7 +1860,7 @@ public class ExchangeService extends Service implements Runnable {
     /**
      * Start up the ExchangeService service if it's not already running
      * This is a stopgap for cases in which ExchangeService died (due to a crash somewhere in
-     * com.android.email) and hasn't been restarted. See the comment for onCreate for details
+     * com.pellcorp.email) and hasn't been restarted. See the comment for onCreate for details
      */
     static void checkExchangeServiceServiceRunning() {
         ExchangeService exchangeService = INSTANCE;

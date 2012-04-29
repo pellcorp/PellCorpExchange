@@ -84,7 +84,7 @@ public class ContactsSyncAdapter extends AbstractSyncAdapter {
     private static final ArrayList<NamedContentValues> EMPTY_ARRAY_NAMEDCONTENTVALUES
         = new ArrayList<NamedContentValues>();
 
-    private static final String FOUND_DATA_ROW = "com.android.exchange.FOUND_ROW";
+    private static final String FOUND_DATA_ROW = "com.pellcorp.exchange.FOUND_ROW";
 
     private static final int[] HOME_ADDRESS_TAGS = new int[] {Tags.CONTACTS_HOME_ADDRESS_CITY,
         Tags.CONTACTS_HOME_ADDRESS_COUNTRY,
