@@ -18,7 +18,7 @@ package com.pellcorp.exchange.adapter;
 import android.content.Context;
 import android.content.res.Resources;
 
-import com.android.emailcommon.provider.Policy;
+import com.pellcorp.emailcommon.provider.Policy;
 import com.pellcorp.exchange.EasSyncService;
 import com.pellcorp.exchange.ExchangeService;
 import com.pellcorp.exchange.R;

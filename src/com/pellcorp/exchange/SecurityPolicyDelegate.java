@@ -16,9 +16,9 @@
 
 package com.pellcorp.exchange;
 
-import com.android.emailcommon.provider.Account;
-import com.android.emailcommon.provider.Policy;
-import com.android.emailcommon.service.PolicyServiceProxy;
+import com.pellcorp.emailcommon.provider.Account;
+import com.pellcorp.emailcommon.provider.Policy;
+import com.pellcorp.emailcommon.service.PolicyServiceProxy;
 
 import android.content.Context;
 import android.os.RemoteException;

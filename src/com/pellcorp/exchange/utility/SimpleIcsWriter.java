@@ -15,7 +15,7 @@
 
 package com.pellcorp.exchange.utility;
 
-import com.android.emailcommon.utility.Utility;
+import com.pellcorp.emailcommon.utility.Utility;
 
 import android.text.TextUtils;
 

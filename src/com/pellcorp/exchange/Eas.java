@@ -19,8 +19,8 @@ package com.pellcorp.exchange;
 
 import android.util.Log;
 
-import com.android.emailcommon.service.EmailServiceProxy;
-import com.android.emailcommon.service.SyncWindow;
+import com.pellcorp.emailcommon.service.EmailServiceProxy;
+import com.pellcorp.emailcommon.service.SyncWindow;
 
 /**
  * Constants used throughout the EAS implementation are stored here.

@@ -17,7 +17,7 @@
 
 package com.pellcorp.exchange;
 
-import com.android.emailcommon.utility.EmailClientConnectionManager;
+import com.pellcorp.emailcommon.utility.EmailClientConnectionManager;
 
 import org.apache.http.Header;
 import org.apache.http.HttpEntity;

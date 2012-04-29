@@ -31,10 +31,10 @@ import android.os.IBinder;
 import android.provider.CalendarContract.Events;
 import android.util.Log;
 
-import com.android.emailcommon.provider.EmailContent;
-import com.android.emailcommon.provider.EmailContent.AccountColumns;
-import com.android.emailcommon.provider.EmailContent.MailboxColumns;
-import com.android.emailcommon.provider.Mailbox;
+import com.pellcorp.emailcommon.provider.EmailContent;
+import com.pellcorp.emailcommon.provider.EmailContent.AccountColumns;
+import com.pellcorp.emailcommon.provider.EmailContent.MailboxColumns;
+import com.pellcorp.emailcommon.provider.Mailbox;
 
 public class CalendarSyncAdapterService extends Service {
     private static final String TAG = "EAS CalendarSyncAdapterService";
@@ -116,7 +116,7 @@ public class CalendarSyncAdapterService extends Service {
 
         // Find the (EmailProvider) account associated with this email address
         Cursor accountCursor =
-            cr.query(com.android.emailcommon.provider.Account.CONTENT_URI,
+            cr.query(com.pellcorp.emailcommon.provider.Account.CONTENT_URI,
                     EmailContent.ID_PROJECTION, AccountColumns.EMAIL_ADDRESS + "=?",
                     new String[] {account.name}, null);
         try {

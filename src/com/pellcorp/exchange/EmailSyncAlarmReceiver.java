@@ -24,9 +24,9 @@ import android.content.Intent;
 import android.database.Cursor;
 import android.util.Log;
 
-import com.android.emailcommon.provider.EmailContent.Message;
-import com.android.emailcommon.provider.EmailContent.MessageColumns;
-import com.android.emailcommon.provider.ProviderUnavailableException;
+import com.pellcorp.emailcommon.provider.EmailContent.Message;
+import com.pellcorp.emailcommon.provider.EmailContent.MessageColumns;
+import com.pellcorp.emailcommon.provider.ProviderUnavailableException;
 
 import java.util.ArrayList;
 

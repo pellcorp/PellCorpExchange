@@ -16,7 +16,7 @@
 
 package com.pellcorp.exchange;
 
-import com.android.emailcommon.Logging;
+import com.pellcorp.emailcommon.Logging;
 
 import android.accounts.Account;
 import android.accounts.AccountManager;

@@ -19,7 +19,7 @@ package com.pellcorp.exchange;
 
 import android.security.KeyChain;
 
-import com.android.emailcommon.utility.CertificateRequestor;
+import com.pellcorp.emailcommon.utility.CertificateRequestor;
 
 /**
  * A subclass of the {@link CertificateRequestor} so that the Exchange process

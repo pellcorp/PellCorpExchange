@@ -17,8 +17,8 @@
 
 package com.pellcorp.exchange.adapter;
 
-import com.android.emailcommon.provider.Account;
-import com.android.emailcommon.provider.Mailbox;
+import com.pellcorp.emailcommon.provider.Account;
+import com.pellcorp.emailcommon.provider.Mailbox;
 import com.pellcorp.exchange.CommandStatusException;
 import com.pellcorp.exchange.Eas;
 import com.pellcorp.exchange.EasSyncService;

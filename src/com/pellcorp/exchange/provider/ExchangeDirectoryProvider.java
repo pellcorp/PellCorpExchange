@@ -16,13 +16,13 @@
 
 package com.pellcorp.exchange.provider;
 
-import com.android.emailcommon.Configuration;
-import com.android.emailcommon.mail.PackedString;
-import com.android.emailcommon.provider.Account;
-import com.android.emailcommon.provider.EmailContent;
-import com.android.emailcommon.provider.EmailContent.AccountColumns;
-import com.android.emailcommon.service.AccountServiceProxy;
-import com.android.emailcommon.utility.Utility;
+import com.pellcorp.emailcommon.Configuration;
+import com.pellcorp.emailcommon.mail.PackedString;
+import com.pellcorp.emailcommon.provider.Account;
+import com.pellcorp.emailcommon.provider.EmailContent;
+import com.pellcorp.emailcommon.provider.EmailContent.AccountColumns;
+import com.pellcorp.emailcommon.service.AccountServiceProxy;
+import com.pellcorp.emailcommon.utility.Utility;
 import com.pellcorp.exchange.Eas;
 import com.pellcorp.exchange.EasSyncService;
 import com.pellcorp.exchange.R;

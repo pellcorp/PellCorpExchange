@@ -16,10 +16,10 @@
 
 package com.pellcorp.exchange;
 
-import com.android.emailcommon.provider.EmailContent;
-import com.android.emailcommon.provider.EmailContent.AccountColumns;
-import com.android.emailcommon.provider.EmailContent.MailboxColumns;
-import com.android.emailcommon.provider.Mailbox;
+import com.pellcorp.emailcommon.provider.EmailContent;
+import com.pellcorp.emailcommon.provider.EmailContent.AccountColumns;
+import com.pellcorp.emailcommon.provider.EmailContent.MailboxColumns;
+import com.pellcorp.emailcommon.provider.Mailbox;
 
 import android.accounts.Account;
 import android.accounts.OperationCanceledException;
@@ -94,7 +94,7 @@ public class EmailSyncAdapterService extends Service {
 
         // Find the (EmailProvider) account associated with this email address
         Cursor accountCursor =
-            cr.query(com.android.emailcommon.provider.Account.CONTENT_URI,
+            cr.query(com.pellcorp.emailcommon.provider.Account.CONTENT_URI,
                     ID_PROJECTION, AccountColumns.EMAIL_ADDRESS + "=?", new String[] {account.name},
                     null);
         try {

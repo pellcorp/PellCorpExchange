@@ -17,9 +17,9 @@
 
 package com.pellcorp.exchange;
 
-import com.android.emailcommon.provider.Account;
-import com.android.emailcommon.provider.HostAuth;
-import com.android.emailcommon.provider.Mailbox;
+import com.pellcorp.emailcommon.provider.Account;
+import com.pellcorp.emailcommon.provider.HostAuth;
+import com.pellcorp.emailcommon.provider.Mailbox;
 import com.pellcorp.exchange.utility.FileLogger;
 
 import android.content.Context;

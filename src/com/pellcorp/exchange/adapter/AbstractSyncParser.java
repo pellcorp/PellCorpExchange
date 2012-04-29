@@ -21,9 +21,9 @@ import android.content.ContentResolver;
 import android.content.ContentValues;
 import android.content.Context;
 
-import com.android.emailcommon.provider.Account;
-import com.android.emailcommon.provider.EmailContent.MailboxColumns;
-import com.android.emailcommon.provider.Mailbox;
+import com.pellcorp.emailcommon.provider.Account;
+import com.pellcorp.emailcommon.provider.EmailContent.MailboxColumns;
+import com.pellcorp.emailcommon.provider.Mailbox;
 import com.pellcorp.exchange.CommandStatusException;
 import com.pellcorp.exchange.EasSyncService;
 import com.pellcorp.exchange.ExchangeService;

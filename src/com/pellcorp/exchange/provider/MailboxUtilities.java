@@ -23,10 +23,10 @@ import android.content.Context;
 import android.database.Cursor;
 import android.util.Log;
 
-import com.android.emailcommon.Logging;
-import com.android.emailcommon.provider.Account;
-import com.android.emailcommon.provider.EmailContent.MailboxColumns;
-import com.android.emailcommon.provider.Mailbox;
+import com.pellcorp.emailcommon.Logging;
+import com.pellcorp.emailcommon.provider.Account;
+import com.pellcorp.emailcommon.provider.EmailContent.MailboxColumns;
+import com.pellcorp.emailcommon.provider.Mailbox;
 
 public class MailboxUtilities {
     public static final String WHERE_PARENT_KEY_UNINITIALIZED =

@@ -21,11 +21,11 @@ import android.content.Context;
 import android.net.Uri;
 import android.os.RemoteException;
 
-import com.android.emailcommon.provider.EmailContent.Attachment;
-import com.android.emailcommon.provider.EmailContent.AttachmentColumns;
-import com.android.emailcommon.provider.EmailContent.Message;
-import com.android.emailcommon.service.EmailServiceStatus;
-import com.android.emailcommon.utility.AttachmentUtilities;
+import com.pellcorp.emailcommon.provider.EmailContent.Attachment;
+import com.pellcorp.emailcommon.provider.EmailContent.AttachmentColumns;
+import com.pellcorp.emailcommon.provider.EmailContent.Message;
+import com.pellcorp.emailcommon.service.EmailServiceStatus;
+import com.pellcorp.emailcommon.utility.AttachmentUtilities;
 import com.google.common.annotations.VisibleForTesting;
 import com.pellcorp.exchange.Eas;
 import com.pellcorp.exchange.EasResponse;

@@ -44,10 +44,10 @@ import android.provider.SyncStateContract;
 import android.text.TextUtils;
 import android.util.Log;
 
-import com.android.emailcommon.AccountManagerTypes;
-import com.android.emailcommon.provider.EmailContent;
-import com.android.emailcommon.provider.EmailContent.Message;
-import com.android.emailcommon.utility.Utility;
+import com.pellcorp.emailcommon.AccountManagerTypes;
+import com.pellcorp.emailcommon.provider.EmailContent;
+import com.pellcorp.emailcommon.provider.EmailContent.Message;
+import com.pellcorp.emailcommon.utility.Utility;
 import com.pellcorp.exchange.CommandStatusException;
 import com.pellcorp.exchange.Eas;
 import com.pellcorp.exchange.EasOutboxService;

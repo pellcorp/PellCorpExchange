@@ -15,7 +15,7 @@
 
 package com.pellcorp.exchange.provider;
 
-import com.android.emailcommon.mail.PackedString;
+import com.pellcorp.emailcommon.mail.PackedString;
 
 import java.util.ArrayList;
 
