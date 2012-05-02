@@ -101,7 +101,7 @@
     <string name="notification_exchange_calendar_added">Exchange calendar added</string>
 
     <!-- The name of this APK as shown in manage applications settings. [CHAR LIMIT=30] -->
-    <string name="app_name" >Exchange Services</string>
+    <string name="app_name" >PellCorp Exchange Services</string>
 
     <!-- Used as the body text of a message reporting to an attendee that a
         specific instance of a recurring meeting has been canceled -->
