@@ -34,12 +34,12 @@ import com.pellcorp.emailcommon.service.SyncWindow;
 import com.pellcorp.emailcommon.utility.AttachmentUtilities;
 import com.pellcorp.emailcommon.utility.EmailAsyncTask;
 import com.pellcorp.emailcommon.utility.Utility;
-import com.google.common.annotations.VisibleForTesting;
 import com.pellcorp.exchange.CommandStatusException;
+import com.pellcorp.exchange.CommandStatusException.CommandStatus;
 import com.pellcorp.exchange.Eas;
 import com.pellcorp.exchange.ExchangeService;
-import com.pellcorp.exchange.CommandStatusException.CommandStatus;
 import com.pellcorp.exchange.provider.MailboxUtilities;
+import com.google.common.annotations.VisibleForTesting;
 
 import java.io.IOException;
 import java.io.InputStream;

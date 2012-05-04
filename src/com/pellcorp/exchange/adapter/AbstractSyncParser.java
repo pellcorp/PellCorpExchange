@@ -25,9 +25,9 @@ import com.pellcorp.emailcommon.provider.Account;
 import com.pellcorp.emailcommon.provider.EmailContent.MailboxColumns;
 import com.pellcorp.emailcommon.provider.Mailbox;
 import com.pellcorp.exchange.CommandStatusException;
+import com.pellcorp.exchange.CommandStatusException.CommandStatus;
 import com.pellcorp.exchange.EasSyncService;
 import com.pellcorp.exchange.ExchangeService;
-import com.pellcorp.exchange.CommandStatusException.CommandStatus;
 
 import java.io.IOException;
 import java.io.InputStream;

@@ -53,8 +53,6 @@ import com.pellcorp.emailcommon.service.SyncWindow;
 import com.pellcorp.emailcommon.utility.AttachmentUtilities;
 import com.pellcorp.emailcommon.utility.ConversionUtilities;
 import com.pellcorp.emailcommon.utility.Utility;
-
-import com.google.common.annotations.VisibleForTesting;
 import com.pellcorp.exchange.CommandStatusException;
 import com.pellcorp.exchange.Eas;
 import com.pellcorp.exchange.EasResponse;
@@ -62,6 +60,8 @@ import com.pellcorp.exchange.EasSyncService;
 import com.pellcorp.exchange.MessageMoveRequest;
 import com.pellcorp.exchange.R;
 import com.pellcorp.exchange.utility.CalendarUtilities;
+
+import com.google.common.annotations.VisibleForTesting;
 
 import org.apache.http.HttpStatus;
 import org.apache.http.entity.ByteArrayEntity;

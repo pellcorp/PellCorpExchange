@@ -26,13 +26,13 @@ import com.pellcorp.emailcommon.provider.EmailContent.AttachmentColumns;
 import com.pellcorp.emailcommon.provider.EmailContent.Message;
 import com.pellcorp.emailcommon.service.EmailServiceStatus;
 import com.pellcorp.emailcommon.utility.AttachmentUtilities;
-import com.google.common.annotations.VisibleForTesting;
 import com.pellcorp.exchange.Eas;
 import com.pellcorp.exchange.EasResponse;
 import com.pellcorp.exchange.EasSyncService;
 import com.pellcorp.exchange.ExchangeService;
 import com.pellcorp.exchange.PartRequest;
 import com.pellcorp.exchange.utility.UriCodec;
+import com.google.common.annotations.VisibleForTesting;
 
 import org.apache.http.HttpStatus;
 

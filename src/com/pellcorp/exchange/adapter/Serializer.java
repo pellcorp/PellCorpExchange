@@ -26,9 +26,9 @@ package com.pellcorp.exchange.adapter;
 import android.content.ContentValues;
 import android.util.Log;
 
-import com.google.common.annotations.VisibleForTesting;
 import com.pellcorp.exchange.Eas;
 import com.pellcorp.exchange.utility.FileLogger;
+import com.google.common.annotations.VisibleForTesting;
 
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;

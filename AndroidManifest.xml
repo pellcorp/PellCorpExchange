@@ -155,7 +155,7 @@
 
         <activity android:name=".EasCertificateRequestor">
             <intent-filter>
-                <action android:name="com.pellcorp.emailcommonREQUEST_CERT" />
+                <action android:name="com.pellcorp.emailcommon.REQUEST_CERT" />
                 <data android:scheme="eas" android:path="/certrequest" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>

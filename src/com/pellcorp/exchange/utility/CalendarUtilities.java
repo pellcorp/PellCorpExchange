@@ -44,14 +44,14 @@ import com.pellcorp.emailcommon.provider.EmailContent.Message;
 import com.pellcorp.emailcommon.provider.Mailbox;
 import com.pellcorp.emailcommon.service.AccountServiceProxy;
 import com.pellcorp.emailcommon.utility.Utility;
-import com.android.internal.util.ArrayUtils;
-import com.google.common.annotations.VisibleForTesting;
 import com.pellcorp.exchange.Eas;
 import com.pellcorp.exchange.EasSyncService;
 import com.pellcorp.exchange.ExchangeService;
 import com.pellcorp.exchange.R;
 import com.pellcorp.exchange.adapter.Serializer;
 import com.pellcorp.exchange.adapter.Tags;
+import com.android.internal.util.ArrayUtils;
+import com.google.common.annotations.VisibleForTesting;
 
 import java.io.IOException;
 import java.text.DateFormat;

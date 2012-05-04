@@ -10,7 +10,7 @@
 }
 
 -keepclasseswithmembers class com.pellcorp.exchange.provider.GalResult {
-  *** addGalData(com.android.exchange.provider.GalResult$GalData);
+  *** addGalData(com.pellcorp.exchange.provider.GalResult$GalData);
   *** addGalData(long, java.lang.String, java.lang.String);
 }
 

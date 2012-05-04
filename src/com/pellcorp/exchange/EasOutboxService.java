@@ -41,9 +41,9 @@ import com.pellcorp.emailcommon.service.EmailServiceStatus;
 import com.pellcorp.emailcommon.utility.Utility;
 import com.pellcorp.exchange.CommandStatusException.CommandStatus;
 import com.pellcorp.exchange.adapter.Parser;
+import com.pellcorp.exchange.adapter.Parser.EmptyStreamException;
 import com.pellcorp.exchange.adapter.Serializer;
 import com.pellcorp.exchange.adapter.Tags;
-import com.pellcorp.exchange.adapter.Parser.EmptyStreamException;
 
 import org.apache.http.HttpEntity;
 import org.apache.http.HttpStatus;
