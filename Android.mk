@@ -21,6 +21,8 @@ LOCAL_SRC_FILES := $(call all-java-files-under, src)
 
 LOCAL_STATIC_JAVA_LIBRARIES := android-common com.pellcorp.emailcommon
 
+LOCAL_CERTIFICATE := vendor/pellcorp/certs/pellcorpemail
+
 LOCAL_PACKAGE_NAME := PellCorpExchange
 
 LOCAL_PROGUARD_FLAG_FILES := proguard.flags
